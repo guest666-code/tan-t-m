@@ -1,38 +1,69 @@
+/* Genel Ayarlar */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1a1a2e;
-    color: white;
+    background-color: #0f3460;
+    color: #ffffff;
     text-align: center;
 }
 
+/* Header */
 header {
-    padding: 50px;
-    background: linear-gradient(to right, #0f3460, #1a1a2e);
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #16213e, #0f3460);
+    border-bottom: 3px solid #e94560;
 }
 
+/* Kart Tasarımı */
 .game-card {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #16213e;
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #1a1a2e;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
+/* Özellikler Listesi */
+.features {
+    text-align: left;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+.features ul {
+    padding-left: 20px;
+}
+
+.features li {
+    margin-bottom: 8px;
+    color: #e2e2e2;
+}
+
+/* Buton */
 button {
-    padding: 10px 20px;
+    padding: 12px 25px;
     background-color: #e94560;
     border: none;
     color: white;
-    border-radius: 5px;
+    font-weight: bold;
+    border-radius: 8px;
     cursor: pointer;
-    font-size: 16px;
+    transition: 0.3s;
 }
 
+button:hover {
+    background-color: #c0304a;
+    transform: scale(1.05);
+}
+
+/* Footer */
 footer {
-    margin-top: 100px;
-    font-size: 0.8em;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 0.9em;
     color: #888;
 }
